@@ -1,0 +1,4 @@
+# Output products list for <axi_burst>
+axi_burst.xco
+axi_burst_flist.txt
+axi_burst_xmdf.tcl
