@@ -1,0 +1,13 @@
+Release 14.2 Map P.28xd (nt64)
+Xilinx Mapping Report File for Design 'vmodcam'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol
+high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off
+-pr off -lc off -power off -o vmodcam_map.ncd vmodcam.ngd vmodcam.pcf 
+Target Device  : xc6slx45
+Target Package : csg324
+Target Speed   : -3
+Mapper Version : spartan6 -- $Revision: 1.55 $
+Mapped Date    : Sat Feb 08 14:33:00 2014
