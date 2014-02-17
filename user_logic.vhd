@@ -1192,7 +1192,7 @@ CAM_FIFO : fifo
 						
 						if(Bus2IP_Mst_Cmplt = '1') then
 							cama_sm_state <= CAMA_IDLE;
-							if (pa_wr_addr = X"A0000000" + 1600*1200*2) then
+							if (pa_wr_addr = X"A3A97FC") then
 								pa_wr_addr <= X"A0000000";
 							else
 								pa_wr_addr <= pa_wr_addr + 4;

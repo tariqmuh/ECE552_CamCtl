@@ -53,3 +53,6 @@ xst -intstyle ise -ifn "C:/DSD/IP1_VIDEO_INPUT/UserLogicWithCamCtlOnly/vmodcam.x
 xst -intstyle ise -ifn "C:/fpga/ISE/CamCtl_Pcore/vmodcam.xst" -ofn "C:/fpga/ISE/CamCtl_Pcore/vmodcam.syr" 
 xst -intstyle ise -ifn "C:/fpga/ISE/CamCtl_Pcore/vmodcam.xst" -ofn "C:/fpga/ISE/CamCtl_Pcore/vmodcam.syr" 
 xst -intstyle ise -ifn "C:/fpga/ISE/ECE552_CamCtl/vmodcam.xst" -ofn "C:/fpga/ISE/ECE552_CamCtl/vmodcam.syr" 
+xst -intstyle ise -ifn "C:/fpga/ISE/ECE552_CamCtl/vmodcam.xst" -ofn "C:/fpga/ISE/ECE552_CamCtl/vmodcam.syr" 
+xst -intstyle ise -ifn "C:/fpga/ISE/ECE552_CamCtl/vmodcam.xst" -ofn "C:/fpga/ISE/ECE552_CamCtl/vmodcam.syr" 
+xst -intstyle ise -ifn "C:/fpga/ISE/ECE552_CamCtl/vmodcam.xst" -ofn "C:/fpga/ISE/ECE552_CamCtl/vmodcam.syr" 
