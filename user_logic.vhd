@@ -300,6 +300,8 @@ constant WR_BATCH : natural := 32;
 	signal p1_wr_full          : std_logic;
 	signal p1_wr_empty         : std_logic;
 	signal p1_fifo_full         : std_logic;
+	signal p1_data_out 			: std_logic_vector (C3_P1_DATA_PORT_SIZE -1 downto 0);
+	signal p1_rd_en 				: std_logic;
 	signal p1_wr_count         : std_logic_vector(6 downto 0) ;
 	signal p1_wr_underrun     : std_logic;
 	signal p1_wr_error         : std_logic;
@@ -1107,12 +1109,13 @@ CAM_FIFO : fifo
     rd_clk => Bus2IP_Clk,
     din => p1_wr_data,
     wr_en => p1_wr_en,
-    rd_en => mst_fifo_valid_read_xfer,
-    dout => IP2Bus_MstWr_d,
+    rd_en => p1_rd_en,
+    dout => p1_data_out,
     full => p1_fifo_full,
     empty => p1_wr_empty
   );
 	
+	IP2Bus_MstWr_d <= p1_data_out;
 
 	CAMA_CLK <= CLKA;
 	p1_wr_data(31 downto 16) <= DIA;
@@ -1173,13 +1176,16 @@ CAM_FIFO : fifo
 						if(p1_wr_empty = '0') then
 							cama_sm_state <= CAMA_INIT;
 							mst_cntl_wr_req <= '1';
+							p1_rd_en <= '1';
 						end if;
 						
 					when CAMA_INIT =>
-						
+						p1_rd_en <= '0';
 						if(Bus2IP_Mst_CmdAck = '1') then
 							cama_sm_state <= CAMA_GO;
 							mst_cntl_wr_req <= '0';
+	
+							
 						end if;
 						
 					when CAMA_GO =>

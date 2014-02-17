@@ -3,14 +3,14 @@ Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.32 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.35 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.32 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.36 secs
  
 --> Reading design: vmodcam.prj
 
@@ -108,10 +108,10 @@ Cores Search Directories           : {"ipcore_dir"  }
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "C:\fpga\ISE\CamCtl_Pcore\ipcore_dir\fifo_synth.vhd" into library work
+Parsing VHDL file "C:\fpga\ISE\ECE552_CamCtl\ipcore_dir\fifo_synth.vhd" into library work
 Parsing entity <fifo>.
 Parsing architecture <spartan6> of entity <fifo>.
-Parsing VHDL file "C:\fpga\ISE\CamCtl_Pcore\ipcore_dir\fifo.vhd" into library work
+Parsing VHDL file "C:\fpga\ISE\ECE552_CamCtl\ipcore_dir\fifo.vhd" into library work
 Parsing entity <fifo>.
 Parsing architecture <fifo_a> of entity <fifo>.
 Parsing VHDL file "C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\proc_common_v3_00_a\hdl\vhdl\proc_common_pkg.vhd" into library proc_common_v3_00_a
@@ -155,12 +155,12 @@ Parsing architecture <implementation> of entity <axi_master_burst_rdmux>.
 Parsing VHDL file "C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_master_burst_v1_00_a\hdl\vhdl\axi_master_burst_fifo.vhd" into library axi_master_burst_v1_00_a
 Parsing entity <axi_master_burst_fifo>.
 Parsing architecture <imp> of entity <axi_master_burst_fifo>.
-Parsing VHDL file "C:\fpga\ISE\CamCtl_Pcore\TWICtl.vhd" into library work
+Parsing VHDL file "C:\fpga\ISE\ECE552_CamCtl\TWICtl.vhd" into library work
 Parsing package <TWIUtils>.
 Parsing package body <TWIUtils>.
 Parsing entity <TWICtl>.
 Parsing architecture <Behavioral> of entity <twictl>.
-Parsing VHDL file "C:\fpga\ISE\CamCtl_Pcore\LocalRst.vhd" into library work
+Parsing VHDL file "C:\fpga\ISE\ECE552_CamCtl\LocalRst.vhd" into library work
 Parsing entity <LocalRst>.
 Parsing architecture <Behavioral> of entity <localrst>.
 Parsing VHDL file "C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\proc_common_v3_00_a\hdl\vhdl\counter_f.vhd" into library proc_common_v3_00_a
@@ -199,9 +199,9 @@ Parsing architecture <implementation> of entity <axi_master_burst_addr_cntl>.
 Parsing VHDL file "C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_lite_ipif_v1_01_a\hdl\vhdl\address_decoder.vhd" into library axi_lite_ipif_v1_01_a
 Parsing entity <address_decoder>.
 Parsing architecture <IMP> of entity <address_decoder>.
-Parsing VHDL file "C:\fpga\ISE\CamCtl_Pcore\Video.vhd" into library work
+Parsing VHDL file "C:\fpga\ISE\ECE552_CamCtl\Video.vhd" into library work
 Parsing package <Video>.
-Parsing VHDL file "C:\fpga\ISE\CamCtl_Pcore\CamCtl.vhd" into library work
+Parsing VHDL file "C:\fpga\ISE\ECE552_CamCtl\CamCtl.vhd" into library work
 Parsing entity <CamCtl>.
 Parsing architecture <Behavioral> of entity <camctl>.
 Parsing VHDL file "C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_master_burst_v1_00_a\hdl\vhdl\axi_master_burst_wr_llink.vhd" into library axi_master_burst_v1_00_a
@@ -222,7 +222,7 @@ Parsing architecture <implementation> of entity <axi_master_burst_cmd_status>.
 Parsing VHDL file "C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_lite_ipif_v1_01_a\hdl\vhdl\slave_attachment.vhd" into library axi_lite_ipif_v1_01_a
 Parsing entity <slave_attachment>.
 Parsing architecture <imp> of entity <slave_attachment>.
-Parsing VHDL file "C:\fpga\ISE\CamCtl_Pcore\VmodCAM_Ref.vhd" into library work
+Parsing VHDL file "C:\fpga\ISE\ECE552_CamCtl\VmodCAM_Ref.vhd" into library work
 Parsing entity <VmodCAM_Ref>.
 Parsing architecture <Behavioral> of entity <vmodcam_ref>.
 Parsing VHDL file "C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\proc_common_v3_00_a\hdl\vhdl\soft_reset.vhd" into library proc_common_v3_00_a
@@ -234,10 +234,10 @@ Parsing architecture <implementation> of entity <axi_master_burst>.
 Parsing VHDL file "C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_lite_ipif_v1_01_a\hdl\vhdl\axi_lite_ipif.vhd" into library axi_lite_ipif_v1_01_a
 Parsing entity <axi_lite_ipif>.
 Parsing architecture <imp> of entity <axi_lite_ipif>.
-Parsing VHDL file "C:\fpga\ISE\CamCtl_Pcore\user_logic.vhd" into library work
+Parsing VHDL file "C:\fpga\ISE\ECE552_CamCtl\user_logic.vhd" into library work
 Parsing entity <user_logic>.
 Parsing architecture <IMP> of entity <user_logic>.
-Parsing VHDL file "C:\fpga\ISE\CamCtl_Pcore\vmodcam.vhd" into library work
+Parsing VHDL file "C:\fpga\ISE\ECE552_CamCtl\vmodcam.vhd" into library work
 Parsing entity <vmodcam>.
 Parsing architecture <IMP> of entity <vmodcam>.
 
@@ -348,9 +348,9 @@ Elaborating entity <axi_master_burst_wr_llink> (architecture <implementation>) w
 Elaborating entity <soft_reset> (architecture <implementation>) with generics from library <proc_common_v3_00_a>.
 
 Elaborating entity <user_logic> (architecture <IMP>) with generics from library <work>.
-INFO:HDLCompiler:679 - "C:\fpga\ISE\CamCtl_Pcore\user_logic.vhd" Line 806. Case statement is complete. others clause is never selected
-INFO:HDLCompiler:679 - "C:\fpga\ISE\CamCtl_Pcore\user_logic.vhd" Line 861. Case statement is complete. others clause is never selected
-INFO:HDLCompiler:679 - "C:\fpga\ISE\CamCtl_Pcore\user_logic.vhd" Line 996. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "C:\fpga\ISE\ECE552_CamCtl\user_logic.vhd" Line 808. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "C:\fpga\ISE\ECE552_CamCtl\user_logic.vhd" Line 863. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "C:\fpga\ISE\ECE552_CamCtl\user_logic.vhd" Line 998. Case statement is complete. others clause is never selected
 
 Elaborating entity <srl_fifo_f> (architecture <imp>) with generics from library <proc_common_v3_00_a>.
 
@@ -367,27 +367,27 @@ Elaborating entity <CamCtl> (architecture <Behavioral>) from library <work>.
 Elaborating entity <LocalRst> (architecture <Behavioral>) with generics from library <work>.
 
 Elaborating entity <TWICtl> (architecture <Behavioral>) with generics from library <work>.
-WARNING:HDLCompiler:1127 - "C:\fpga\ISE\CamCtl_Pcore\TWICtl.vhd" Line 169: Assignment to fstop ignored, since the identifier is never used
-INFO:HDLCompiler:679 - "C:\fpga\ISE\CamCtl_Pcore\TWICtl.vhd" Line 348. Case statement is complete. others clause is never selected
-INFO:HDLCompiler:679 - "C:\fpga\ISE\CamCtl_Pcore\TWICtl.vhd" Line 381. Case statement is complete. others clause is never selected
-INFO:HDLCompiler:679 - "C:\fpga\ISE\CamCtl_Pcore\TWICtl.vhd" Line 399. Case statement is complete. others clause is never selected
-INFO:HDLCompiler:679 - "C:\fpga\ISE\CamCtl_Pcore\TWICtl.vhd" Line 417. Case statement is complete. others clause is never selected
-INFO:HDLCompiler:679 - "C:\fpga\ISE\CamCtl_Pcore\TWICtl.vhd" Line 435. Case statement is complete. others clause is never selected
-WARNING:HDLCompiler:92 - "C:\fpga\ISE\CamCtl_Pcore\CamCtl.vhd" Line 384: regdata1 should be on the sensitivity list of the process
-INFO:HDLCompiler:679 - "C:\fpga\ISE\CamCtl_Pcore\CamCtl.vhd" Line 452. Case statement is complete. others clause is never selected
-WARNING:HDLCompiler:92 - "C:\fpga\ISE\CamCtl_Pcore\VmodCAM_Ref.vhd" Line 210: camadv should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:\fpga\ISE\CamCtl_Pcore\VmodCAM_Ref.vhd" Line 211: cambdv should be on the sensitivity list of the process
+WARNING:HDLCompiler:1127 - "C:\fpga\ISE\ECE552_CamCtl\TWICtl.vhd" Line 169: Assignment to fstop ignored, since the identifier is never used
+INFO:HDLCompiler:679 - "C:\fpga\ISE\ECE552_CamCtl\TWICtl.vhd" Line 348. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "C:\fpga\ISE\ECE552_CamCtl\TWICtl.vhd" Line 381. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "C:\fpga\ISE\ECE552_CamCtl\TWICtl.vhd" Line 399. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "C:\fpga\ISE\ECE552_CamCtl\TWICtl.vhd" Line 417. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "C:\fpga\ISE\ECE552_CamCtl\TWICtl.vhd" Line 435. Case statement is complete. others clause is never selected
+WARNING:HDLCompiler:92 - "C:\fpga\ISE\ECE552_CamCtl\CamCtl.vhd" Line 384: regdata1 should be on the sensitivity list of the process
+INFO:HDLCompiler:679 - "C:\fpga\ISE\ECE552_CamCtl\CamCtl.vhd" Line 452. Case statement is complete. others clause is never selected
+WARNING:HDLCompiler:92 - "C:\fpga\ISE\ECE552_CamCtl\VmodCAM_Ref.vhd" Line 210: camadv should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\fpga\ISE\ECE552_CamCtl\VmodCAM_Ref.vhd" Line 211: cambdv should be on the sensitivity list of the process
 
 Elaborating entity <fifo> (architecture <fifo_a>) from library <work>.
-WARNING:HDLCompiler:634 - "C:\fpga\ISE\CamCtl_Pcore\user_logic.vhd" Line 316: Net <p2_wr_data[15]> does not have a driver.
-WARNING:Xst:2972 - "C:\fpga\ISE\CamCtl_Pcore\user_logic.vhd" line 1013. All outputs of instance <DATA_CAPTURE_FIFO_I> of block <srl_fifo_f> are unconnected in block <user_logic>. Underlying logic will be removed.
+WARNING:HDLCompiler:634 - "C:\fpga\ISE\ECE552_CamCtl\user_logic.vhd" Line 318: Net <p2_wr_data[15]> does not have a driver.
+WARNING:Xst:2972 - "C:\fpga\ISE\ECE552_CamCtl\user_logic.vhd" line 1015. All outputs of instance <DATA_CAPTURE_FIFO_I> of block <srl_fifo_f> are unconnected in block <user_logic>. Underlying logic will be removed.
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Synthesizing Unit <vmodcam>.
-    Related source file is "C:\fpga\ISE\CamCtl_Pcore\vmodcam.vhd".
+    Related source file is "C:\fpga\ISE\ECE552_CamCtl\vmodcam.vhd".
 WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
 WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
 WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
@@ -420,9 +420,9 @@ WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/p
 WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
     Set property "MAX_FANOUT = 10000" for signal <m_axi_aresetn>.
 WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
-INFO:Xst:3210 - "C:\fpga\ISE\CamCtl_Pcore\vmodcam.vhd" line 433: Output port <Bus2IP_Addr> of the instance <AXI_LITE_IPIF_I> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\fpga\ISE\CamCtl_Pcore\vmodcam.vhd" line 433: Output port <Bus2IP_RNW> of the instance <AXI_LITE_IPIF_I> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\fpga\ISE\CamCtl_Pcore\vmodcam.vhd" line 563: Output port <Reset2Bus_ToutSup> of the instance <SOFT_RESET_I> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\fpga\ISE\ECE552_CamCtl\vmodcam.vhd" line 433: Output port <Bus2IP_Addr> of the instance <AXI_LITE_IPIF_I> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\fpga\ISE\ECE552_CamCtl\vmodcam.vhd" line 433: Output port <Bus2IP_RNW> of the instance <AXI_LITE_IPIF_I> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\fpga\ISE\ECE552_CamCtl\vmodcam.vhd" line 563: Output port <Reset2Bus_ToutSup> of the instance <SOFT_RESET_I> is unconnected or connected to loadless signal.
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <vmodcam> synthesized.
@@ -1323,7 +1323,7 @@ WARNING:Xst:647 - Input <Bus2IP_BE<0:2>> is never used. This port will be preser
 Unit <soft_reset> synthesized.
 
 Synthesizing Unit <user_logic>.
-    Related source file is "C:\fpga\ISE\CamCtl_Pcore\user_logic.vhd".
+    Related source file is "C:\fpga\ISE\ECE552_CamCtl\user_logic.vhd".
 WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
 WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
 WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
@@ -1344,15 +1344,15 @@ WARNING:Xst:647 - Input <bus2ip_mstrd_rem> is never used. This port will be pres
 WARNING:Xst:647 - Input <bus2ip_mst_rearbitrate> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <bus2ip_mstrd_sof_n> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <bus2ip_mstrd_src_dsc_n> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-INFO:Xst:3210 - "C:\fpga\ISE\CamCtl_Pcore\user_logic.vhd" line 1013: Output port <Data_Out> of the instance <DATA_CAPTURE_FIFO_I> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\fpga\ISE\CamCtl_Pcore\user_logic.vhd" line 1013: Output port <Addr> of the instance <DATA_CAPTURE_FIFO_I> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\fpga\ISE\CamCtl_Pcore\user_logic.vhd" line 1013: Output port <FIFO_Empty> of the instance <DATA_CAPTURE_FIFO_I> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\fpga\ISE\CamCtl_Pcore\user_logic.vhd" line 1013: Output port <FIFO_Full> of the instance <DATA_CAPTURE_FIFO_I> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\fpga\ISE\CamCtl_Pcore\user_logic.vhd" line 1061: Output port <LED_O> of the instance <Inst_VmodCAM> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\fpga\ISE\CamCtl_Pcore\user_logic.vhd" line 1061: Output port <ENB> of the instance <Inst_VmodCAM> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\fpga\ISE\CamCtl_Pcore\user_logic.vhd" line 1061: Output port <RSTB_I> of the instance <Inst_VmodCAM> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\fpga\ISE\CamCtl_Pcore\user_logic.vhd" line 1061: Output port <CLKB> of the instance <Inst_VmodCAM> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\fpga\ISE\CamCtl_Pcore\user_logic.vhd" line 1061: Output port <RSTA_I> of the instance <Inst_VmodCAM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\fpga\ISE\ECE552_CamCtl\user_logic.vhd" line 1015: Output port <Data_Out> of the instance <DATA_CAPTURE_FIFO_I> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\fpga\ISE\ECE552_CamCtl\user_logic.vhd" line 1015: Output port <Addr> of the instance <DATA_CAPTURE_FIFO_I> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\fpga\ISE\ECE552_CamCtl\user_logic.vhd" line 1015: Output port <FIFO_Empty> of the instance <DATA_CAPTURE_FIFO_I> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\fpga\ISE\ECE552_CamCtl\user_logic.vhd" line 1015: Output port <FIFO_Full> of the instance <DATA_CAPTURE_FIFO_I> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\fpga\ISE\ECE552_CamCtl\user_logic.vhd" line 1063: Output port <LED_O> of the instance <Inst_VmodCAM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\fpga\ISE\ECE552_CamCtl\user_logic.vhd" line 1063: Output port <ENB> of the instance <Inst_VmodCAM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\fpga\ISE\ECE552_CamCtl\user_logic.vhd" line 1063: Output port <RSTB_I> of the instance <Inst_VmodCAM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\fpga\ISE\ECE552_CamCtl\user_logic.vhd" line 1063: Output port <CLKB> of the instance <Inst_VmodCAM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\fpga\ISE\ECE552_CamCtl\user_logic.vhd" line 1063: Output port <RSTA_I> of the instance <Inst_VmodCAM> is unconnected or connected to loadless signal.
 WARNING:Xst:653 - Signal <p2_wr_data<15:0>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
     Found 32-bit register for signal <slv_reg1>.
     Found 32-bit register for signal <slv_reg2>.
@@ -1413,6 +1413,7 @@ WARNING:Xst:653 - Signal <p2_wr_data<15:0>> is used but never assigned. This sou
     Found 2-bit register for signal <cama_sm_state>.
     Found 1-bit register for signal <mst_cntl_wr_req>.
     Found 32-bit register for signal <pa_wr_addr>.
+    Found 1-bit register for signal <p1_rd_en>.
     Found 32-bit register for signal <slv_reg0>.
     Found finite state machine <FSM_2> for signal <mst_cmd_sm_state>.
     -----------------------------------------------------------------------
@@ -1434,7 +1435,7 @@ INFO:Xst:1799 - State cama_done is never reached in FSM <cama_sm_state>.
     | States             | 4                                              |
     | Transitions        | 6                                              |
     | Inputs             | 3                                              |
-    | Outputs            | 2                                              |
+    | Outputs            | 3                                              |
     | Clock              | Bus2IP_Clk (rising_edge)                       |
     | Reset              | Bus2IP_Reset (positive)                        |
     | Reset type         | synchronous                                    |
@@ -1460,18 +1461,18 @@ INFO:Xst:1799 - State llwr_brst_last_beat is never reached in FSM <mst_llwr_sm_s
     | Encoding           | auto                                           |
     | Implementation     | LUT                                            |
     -----------------------------------------------------------------------
-    Found 33-bit subtractor for signal <n0745> created at line 963.
-    Found 32-bit adder for signal <pa_wr_addr[31]_GND_180_o_add_160_OUT> created at line 1192.
-    Found 1-bit 4-to-1 multiplexer for signal <mst_cmd_sm_state[1]_GND_180_o_Mux_84_o> created at line 746.
-    Found 1-bit 4-to-1 multiplexer for signal <mst_cmd_sm_state[1]_GND_180_o_Mux_85_o> created at line 746.
-    Found 1-bit 12-to-1 multiplexer for signal <LED_O[7]_p1_wr_en_MUX_1165_o> created at line 1044.
-    Found 1-bit 12-to-1 multiplexer for signal <LED_O[7]_mst_cntl_wr_req_MUX_1178_o> created at line 1044.
-    Found 1-bit 12-to-1 multiplexer for signal <LED_O[7]_pa_wr_data_sel_MUX_1191_o> created at line 1044.
-    Found 1-bit 12-to-1 multiplexer for signal <LED_O[7]_bus2ip_mst_cmdack_MUX_1204_o> created at line 1044.
-    Found 1-bit 12-to-1 multiplexer for signal <LED_O[7]_p1_wr_empty_MUX_1217_o> created at line 1044.
-    Found 1-bit 12-to-1 multiplexer for signal <LED_O[7]_p1_fifo_full_MUX_1230_o> created at line 1044.
-    Found 1-bit 12-to-1 multiplexer for signal <LED_O[7]_p1_wr_data[1]_MUX_1243_o> created at line 1044.
-    Found 1-bit 12-to-1 multiplexer for signal <LED_O[7]_p1_wr_data[0]_MUX_1256_o> created at line 1044.
+    Found 33-bit subtractor for signal <n0751> created at line 965.
+    Found 32-bit adder for signal <pa_wr_addr[31]_GND_180_o_add_161_OUT> created at line 1198.
+    Found 1-bit 4-to-1 multiplexer for signal <mst_cmd_sm_state[1]_GND_180_o_Mux_84_o> created at line 748.
+    Found 1-bit 4-to-1 multiplexer for signal <mst_cmd_sm_state[1]_GND_180_o_Mux_85_o> created at line 748.
+    Found 1-bit 12-to-1 multiplexer for signal <LED_O[7]_p1_wr_en_MUX_1165_o> created at line 1046.
+    Found 1-bit 12-to-1 multiplexer for signal <LED_O[7]_mst_cntl_wr_req_MUX_1178_o> created at line 1046.
+    Found 1-bit 12-to-1 multiplexer for signal <LED_O[7]_pa_wr_data_sel_MUX_1191_o> created at line 1046.
+    Found 1-bit 12-to-1 multiplexer for signal <LED_O[7]_bus2ip_mst_cmdack_MUX_1204_o> created at line 1046.
+    Found 1-bit 12-to-1 multiplexer for signal <LED_O[7]_p1_wr_empty_MUX_1217_o> created at line 1046.
+    Found 1-bit 12-to-1 multiplexer for signal <LED_O[7]_p1_fifo_full_MUX_1230_o> created at line 1046.
+    Found 1-bit 12-to-1 multiplexer for signal <LED_O[7]_p1_wr_data[1]_MUX_1243_o> created at line 1046.
+    Found 1-bit 12-to-1 multiplexer for signal <LED_O[7]_p1_wr_data[0]_MUX_1256_o> created at line 1046.
 WARNING:Xst:737 - Found 1-bit latch for signal <LED_O<7>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <LED_O<6>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <LED_O<5>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
@@ -1480,7 +1481,7 @@ WARNING:Xst:737 - Found 1-bit latch for signal <LED_O<3>>. Latches may be genera
 WARNING:Xst:737 - Found 1-bit latch for signal <LED_O<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <LED_O<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <LED_O<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-    Found 32-bit comparator greater for signal <n0372> created at line 963
+    Found 32-bit comparator greater for signal <n0373> created at line 965
     WARNING:Xst:2404 -  FFs/Latches <mst_cmd_sm_reset<0:0>> (without init value) have a constant value of 0 in block <user_logic>.
     WARNING:Xst:2404 -  FFs/Latches <mst_cmd_sm_start_rd_llink<0:0>> (without init value) have a constant value of 0 in block <user_logic>.
     WARNING:Xst:2404 -  FFs/Latches <mst_cmd_sm_rd_req<0:0>> (without init value) have a constant value of 0 in block <user_logic>.
@@ -1488,7 +1489,7 @@ WARNING:Xst:737 - Found 1-bit latch for signal <LED_O<0>>. Latches may be genera
     WARNING:Xst:2404 -  FFs/Latches <mst_cmd_sm_xfer_type<0:0>> (without init value) have a constant value of 0 in block <user_logic>.
     Summary:
 	inferred   2 Adder/Subtractor(s).
-	inferred 424 D-type flip-flop(s).
+	inferred 425 D-type flip-flop(s).
 	inferred   8 Latch(s).
 	inferred   1 Comparator(s).
 	inferred 221 Multiplexer(s).
@@ -1660,7 +1661,7 @@ INFO:Xst:3019 - HDL ADVISOR - 4096 flip-flops were inferred for signal <INFERRED
 Unit <dynshreg_f_3> synthesized.
 
 Synthesizing Unit <VmodCAM_Ref>.
-    Related source file is "C:\fpga\ISE\CamCtl_Pcore\VmodCAM_Ref.vhd".
+    Related source file is "C:\fpga\ISE\ECE552_CamCtl\VmodCAM_Ref.vhd".
         C3_NUM_DQ_PINS = 16
         C3_MEM_ADDR_WIDTH = 13
         C3_MEM_BANKADDR_WIDTH = 3
@@ -1709,9 +1710,9 @@ INFO:Xst:2774 - HDL ADVISOR - S property attached to signal CAMB_D_I<7> may hind
 Unit <VmodCAM_Ref> synthesized.
 
 Synthesizing Unit <CamCtl>.
-    Related source file is "C:\fpga\ISE\CamCtl_Pcore\CamCtl.vhd".
+    Related source file is "C:\fpga\ISE\ECE552_CamCtl\CamCtl.vhd".
 WARNING:Xst:647 - Input <FV_I> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-INFO:Xst:3210 - "C:\fpga\ISE\CamCtl_Pcore\CamCtl.vhd" line 276: Output port <ERRTYPE_O> of the instance <Inst_TWICtl> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\fpga\ISE\ECE552_CamCtl\CamCtl.vhd" line 276: Output port <ERRTYPE_O> of the instance <Inst_TWICtl> is unconnected or connected to loadless signal.
 WARNING:Xst:3035 - Index value(s) does not match array range for signal <CamInitRAM>, simulation mismatch.
     Found 39x33-bit single-port RAM <Mram_CamInitRAM> for signal <CamInitRAM>.
     Found 1-bit register for signal <DV_O>.
@@ -1756,7 +1757,7 @@ WARNING:Xst:3035 - Index value(s) does not match array range for signal <CamInit
 Unit <CamCtl> synthesized.
 
 Synthesizing Unit <LocalRst>.
-    Related source file is "C:\fpga\ISE\CamCtl_Pcore\LocalRst.vhd".
+    Related source file is "C:\fpga\ISE\ECE552_CamCtl\LocalRst.vhd".
         RESET_PERIOD = 4
     Found 1-bit register for signal <RstQ<2>>.
     Found 1-bit register for signal <RstQ<3>>.
@@ -1767,7 +1768,7 @@ Synthesizing Unit <LocalRst>.
 Unit <LocalRst> synthesized.
 
 Synthesizing Unit <TWICtl>.
-    Related source file is "C:\fpga\ISE\CamCtl_Pcore\TWICtl.vhd".
+    Related source file is "C:\fpga\ISE\ECE552_CamCtl\TWICtl.vhd".
         CLOCKFREQ = 24
     Set property "fsm_encoding = gray" for signal <state>.
 WARNING:Xst:2935 - Signal 'ERRTYPE_O', unconnected in block 'TWICtl', is tied to its initial value (0).
@@ -1839,8 +1840,8 @@ Macro Statistics
  6-bit adder                                           : 2
  6-bit subtractor                                      : 4
  8-bit subtractor                                      : 2
-# Registers                                            : 363
- 1-bit register                                        : 248
+# Registers                                            : 364
+ 1-bit register                                        : 249
  12-bit register                                       : 4
  15-bit register                                       : 2
  16-bit register                                       : 7
@@ -2078,8 +2079,8 @@ Macro Statistics
  8-bit down counter                                    : 2
 # Accumulators                                         : 1
  12-bit down loadable accumulator                      : 1
-# Registers                                            : 1282
- Flip-Flops                                            : 1282
+# Registers                                            : 1283
+ Flip-Flops                                            : 1283
 # Comparators                                          : 34
  16-bit comparator equal                               : 1
  16-bit comparator greater                             : 1
@@ -2432,14 +2433,6 @@ WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <USER_LOGIC_I/slv_re
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <USER_LOGIC_I/slv_reg1_8> (without init value) has a constant value of 0 in block <vmodcam>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <USER_LOGIC_I/slv_reg1_7> (without init value) has a constant value of 0 in block <vmodcam>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <USER_LOGIC_I/slv_reg1_6> (without init value) has a constant value of 0 in block <vmodcam>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <USER_LOGIC_I/mst_reg_0_7> (without init value) has a constant value of 0 in block <vmodcam>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <USER_LOGIC_I/mst_reg_0_6> (without init value) has a constant value of 0 in block <vmodcam>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <USER_LOGIC_I/mst_reg_0_5> (without init value) has a constant value of 0 in block <vmodcam>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <USER_LOGIC_I/mst_reg_0_4> (without init value) has a constant value of 0 in block <vmodcam>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <USER_LOGIC_I/mst_reg_0_3> (without init value) has a constant value of 0 in block <vmodcam>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <USER_LOGIC_I/mst_reg_0_2> (without init value) has a constant value of 0 in block <vmodcam>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <USER_LOGIC_I/mst_reg_0_1> (without init value) has a constant value of 0 in block <vmodcam>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <USER_LOGIC_I/mst_reg_0_0> (without init value) has a constant value of 0 in block <vmodcam>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <USER_LOGIC_I/mst_reg_4_7> (without init value) has a constant value of 0 in block <vmodcam>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <USER_LOGIC_I/mst_reg_4_6> (without init value) has a constant value of 0 in block <vmodcam>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <USER_LOGIC_I/mst_reg_4_5> (without init value) has a constant value of 0 in block <vmodcam>. This FF/Latch will be trimmed during the optimization process.
@@ -2448,6 +2441,14 @@ WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <USER_LOGIC_I/mst_re
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <USER_LOGIC_I/mst_reg_4_2> (without init value) has a constant value of 0 in block <vmodcam>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <USER_LOGIC_I/mst_reg_4_1> (without init value) has a constant value of 0 in block <vmodcam>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <USER_LOGIC_I/mst_reg_4_0> (without init value) has a constant value of 0 in block <vmodcam>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <USER_LOGIC_I/mst_reg_0_7> (without init value) has a constant value of 0 in block <vmodcam>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <USER_LOGIC_I/mst_reg_0_6> (without init value) has a constant value of 0 in block <vmodcam>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <USER_LOGIC_I/mst_reg_0_5> (without init value) has a constant value of 0 in block <vmodcam>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <USER_LOGIC_I/mst_reg_0_4> (without init value) has a constant value of 0 in block <vmodcam>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <USER_LOGIC_I/mst_reg_0_3> (without init value) has a constant value of 0 in block <vmodcam>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <USER_LOGIC_I/mst_reg_0_2> (without init value) has a constant value of 0 in block <vmodcam>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <USER_LOGIC_I/mst_reg_0_1> (without init value) has a constant value of 0 in block <vmodcam>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <USER_LOGIC_I/mst_reg_0_0> (without init value) has a constant value of 0 in block <vmodcam>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_31> has a constant value of 0 in block <vmodcam>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_30> has a constant value of 0 in block <vmodcam>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_29> has a constant value of 0 in block <vmodcam>. This FF/Latch will be trimmed during the optimization process.
@@ -2830,8 +2831,13 @@ WARNING:Xst:1898 - Due to constant pushing, FF/Latch <USER_LOGIC_I/mst_reg_13_4>
 WARNING:Xst:1898 - Due to constant pushing, FF/Latch <USER_LOGIC_I/mst_reg_13_3> is unconnected in block <vmodcam>.
 WARNING:Xst:1898 - Due to constant pushing, FF/Latch <USER_LOGIC_I/mst_reg_13_2> is unconnected in block <vmodcam>.
 WARNING:Xst:1898 - Due to constant pushing, FF/Latch <USER_LOGIC_I/mst_reg_12_0> is unconnected in block <vmodcam>.
-WARNING:Xst:1293 - FF/Latch <AXI_MASTER_BURST_I/I_RD_WR_CNTRL_MODULE/I_ADDR_CNTL/sig_rd_addr_valid_reg> has a constant value of 0 in block <vmodcam>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rresp_i_1> has a constant value of 0 in block <vmodcam>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <AXI_MASTER_BURST_I/I_RD_WR_CNTRL_MODULE/I_ADDR_CNTL/sig_rd_addr_valid_reg> has a constant value of 0 in block <vmodcam>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <AXI_MASTER_BURST_I/I_RD_WR_CNTRL_MODULE/I_WR_STATUS_CNTLR/sig_wdc_statcnt_2> has a constant value of 0 in block <vmodcam>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <USER_LOGIC_I/mst_cmd_sm_ip2bus_addr_30> in Unit <vmodcam> is equivalent to the following 26 FFs/Latches, which will be removed : <USER_LOGIC_I/mst_cmd_sm_ip2bus_addr_28> <USER_LOGIC_I/mst_cmd_sm_ip2bus_addr_27> <USER_LOGIC_I/mst_cmd_sm_ip2bus_addr_26> <USER_LOGIC_I/mst_cmd_sm_ip2bus_addr_25> <USER_LOGIC_I/mst_cmd_sm_ip2bus_addr_24> <USER_LOGIC_I/mst_cmd_sm_ip2bus_addr_23> <USER_LOGIC_I/mst_cmd_sm_ip2bus_addr_22> <USER_LOGIC_I/mst_cmd_sm_ip2bus_addr_21> <USER_LOGIC_I/mst_cmd_sm_ip2bus_addr_20> <USER_LOGIC_I/mst_cmd_sm_ip2bus_addr_19> <USER_LOGIC_I/mst_cmd_sm_ip2bus_addr_18> <USER_LOGIC_I/mst_cmd_sm_ip2bus_addr_17> <USER_LOGIC_I/mst_cmd_sm_ip2bus_addr_16> <USER_LOGIC_I/mst_cmd_sm_ip2bus_addr_15> <USER_LOGIC_I/mst_cmd_sm_ip2bus_addr_14> <USER_LOGIC_I/mst_cmd_sm_ip2bus_addr_13> <USER_LOGIC_I/mst_cmd_sm_ip2bus_addr_12> <USER_LOGIC_I/mst_cmd_sm_ip2bus_addr_11> <USER_LOGIC_I/mst_cmd_sm_ip2bus_addr_10> <USER_LOGIC_I/mst_cmd_sm_ip2bus_addr_9> <USER_LOGIC_I/mst_cmd_sm_ip2bus_addr_8>
+   <USER_LOGIC_I/mst_cmd_sm_ip2bus_addr_7> <USER_LOGIC_I/mst_cmd_sm_ip2bus_addr_6> <USER_LOGIC_I/mst_cmd_sm_ip2bus_addr_5> <USER_LOGIC_I/mst_cmd_sm_ip2bus_addr_4> <USER_LOGIC_I/mst_cmd_sm_ip2bus_addr_3> 
+INFO:Xst:2261 - The FF/Latch <USER_LOGIC_I/mst_cmd_sm_ip2bus_addr_31> in Unit <vmodcam> is equivalent to the following FF/Latch, which will be removed : <USER_LOGIC_I/mst_cmd_sm_ip2bus_addr_29> 
+INFO:Xst:2261 - The FF/Latch <SOFT_RESET_I/sw_rst_cond_d1> in Unit <vmodcam> is equivalent to the following FF/Latch, which will be removed : <SOFT_RESET_I/reset_trig> 
 INFO:Xst:2261 - The FF/Latch <AXI_MASTER_BURST_I/I_RD_WR_CNTRL_MODULE/I_ADDR_CNTL/sig_next_burst_reg_1> in Unit <vmodcam> is equivalent to the following 6 FFs/Latches, which will be removed : <AXI_MASTER_BURST_I/I_RD_WR_CNTRL_MODULE/I_ADDR_CNTL/sig_next_size_reg_2> <AXI_MASTER_BURST_I/I_RD_WR_CNTRL_MODULE/I_ADDR_CNTL/sig_next_size_reg_0> <AXI_MASTER_BURST_I/I_RD_WR_CNTRL_MODULE/I_ADDR_CNTL/sig_next_len_reg_7> <AXI_MASTER_BURST_I/I_RD_WR_CNTRL_MODULE/I_ADDR_CNTL/sig_next_len_reg_6> <AXI_MASTER_BURST_I/I_RD_WR_CNTRL_MODULE/I_ADDR_CNTL/sig_next_len_reg_5> <AXI_MASTER_BURST_I/I_RD_WR_CNTRL_MODULE/I_ADDR_CNTL/sig_next_len_reg_4> 
 INFO:Xst:2261 - The FF/Latch <USER_LOGIC_I/Inst_VmodCAM/Inst_camctlA/Inst_TWICtl/sclCnt_5> in Unit <vmodcam> is equivalent to the following 3 FFs/Latches, which will be removed : <USER_LOGIC_I/Inst_VmodCAM/Inst_camctlA/Inst_TWICtl/sclCnt_4> <USER_LOGIC_I/Inst_VmodCAM/Inst_camctlB/Inst_TWICtl/sclCnt_5> <USER_LOGIC_I/Inst_VmodCAM/Inst_camctlB/Inst_TWICtl/sclCnt_4> 
 INFO:Xst:2261 - The FF/Latch <AXI_MASTER_BURST_I/I_CMD_STATUS_MODULE/sig_cmd_mst_be_3> in Unit <vmodcam> is equivalent to the following 3 FFs/Latches, which will be removed : <AXI_MASTER_BURST_I/I_CMD_STATUS_MODULE/sig_cmd_mst_be_2> <AXI_MASTER_BURST_I/I_CMD_STATUS_MODULE/sig_cmd_mst_be_1> <AXI_MASTER_BURST_I/I_CMD_STATUS_MODULE/sig_cmd_mst_be_0> 
@@ -2851,12 +2857,18 @@ INFO:Xst:2261 - The FF/Latch <USER_LOGIC_I/Inst_VmodCAM/Inst_camctlB/rstCnt_0> i
 INFO:Xst:2261 - The FF/Latch <USER_LOGIC_I/Inst_VmodCAM/Inst_camctlB/rstCnt_1> in Unit <vmodcam> is equivalent to the following FF/Latch, which will be removed : <USER_LOGIC_I/Inst_VmodCAM/Inst_camctlA/rstCnt_1> 
 INFO:Xst:2261 - The FF/Latch <USER_LOGIC_I/Inst_VmodCAM/Inst_camctlB/rstCnt_2> in Unit <vmodcam> is equivalent to the following FF/Latch, which will be removed : <USER_LOGIC_I/Inst_VmodCAM/Inst_camctlA/rstCnt_2> 
 INFO:Xst:2261 - The FF/Latch <USER_LOGIC_I/Inst_VmodCAM/Inst_camctlB/rstCnt_3> in Unit <vmodcam> is equivalent to the following FF/Latch, which will be removed : <USER_LOGIC_I/Inst_VmodCAM/Inst_camctlA/rstCnt_3> 
+INFO:Xst:2261 - The FF/Latch <AXI_MASTER_BURST_I/I_CMD_STATUS_MODULE/sig_cmd_mst_addr_30> in Unit <vmodcam> is equivalent to the following 26 FFs/Latches, which will be removed : <AXI_MASTER_BURST_I/I_CMD_STATUS_MODULE/sig_cmd_mst_addr_28> <AXI_MASTER_BURST_I/I_CMD_STATUS_MODULE/sig_cmd_mst_addr_27> <AXI_MASTER_BURST_I/I_CMD_STATUS_MODULE/sig_cmd_mst_addr_26> <AXI_MASTER_BURST_I/I_CMD_STATUS_MODULE/sig_cmd_mst_addr_25> <AXI_MASTER_BURST_I/I_CMD_STATUS_MODULE/sig_cmd_mst_addr_24> <AXI_MASTER_BURST_I/I_CMD_STATUS_MODULE/sig_cmd_mst_addr_23> <AXI_MASTER_BURST_I/I_CMD_STATUS_MODULE/sig_cmd_mst_addr_22> <AXI_MASTER_BURST_I/I_CMD_STATUS_MODULE/sig_cmd_mst_addr_21> <AXI_MASTER_BURST_I/I_CMD_STATUS_MODULE/sig_cmd_mst_addr_20> <AXI_MASTER_BURST_I/I_CMD_STATUS_MODULE/sig_cmd_mst_addr_19> <AXI_MASTER_BURST_I/I_CMD_STATUS_MODULE/sig_cmd_mst_addr_18> <AXI_MASTER_BURST_I/I_CMD_STATUS_MODULE/sig_cmd_mst_addr_17> <AXI_MASTER_BURST_I/I_CMD_STATUS_MODULE/sig_cmd_mst_addr_16>
+   <AXI_MASTER_BURST_I/I_CMD_STATUS_MODULE/sig_cmd_mst_addr_15> <AXI_MASTER_BURST_I/I_CMD_STATUS_MODULE/sig_cmd_mst_addr_14> <AXI_MASTER_BURST_I/I_CMD_STATUS_MODULE/sig_cmd_mst_addr_13> <AXI_MASTER_BURST_I/I_CMD_STATUS_MODULE/sig_cmd_mst_addr_12> <AXI_MASTER_BURST_I/I_CMD_STATUS_MODULE/sig_cmd_mst_addr_11> <AXI_MASTER_BURST_I/I_CMD_STATUS_MODULE/sig_cmd_mst_addr_10> <AXI_MASTER_BURST_I/I_CMD_STATUS_MODULE/sig_cmd_mst_addr_9> <AXI_MASTER_BURST_I/I_CMD_STATUS_MODULE/sig_cmd_mst_addr_8> <AXI_MASTER_BURST_I/I_CMD_STATUS_MODULE/sig_cmd_mst_addr_7> <AXI_MASTER_BURST_I/I_CMD_STATUS_MODULE/sig_cmd_mst_addr_6> <AXI_MASTER_BURST_I/I_CMD_STATUS_MODULE/sig_cmd_mst_addr_5> <AXI_MASTER_BURST_I/I_CMD_STATUS_MODULE/sig_cmd_mst_addr_4> <AXI_MASTER_BURST_I/I_CMD_STATUS_MODULE/sig_cmd_mst_addr_3> 
 INFO:Xst:2261 - The FF/Latch <USER_LOGIC_I/Inst_VmodCAM/Inst_camctlB/rstCnt_4> in Unit <vmodcam> is equivalent to the following FF/Latch, which will be removed : <USER_LOGIC_I/Inst_VmodCAM/Inst_camctlA/rstCnt_4> 
+INFO:Xst:2261 - The FF/Latch <AXI_MASTER_BURST_I/I_CMD_STATUS_MODULE/sig_cmd_mst_addr_31> in Unit <vmodcam> is equivalent to the following FF/Latch, which will be removed : <AXI_MASTER_BURST_I/I_CMD_STATUS_MODULE/sig_cmd_mst_addr_29> 
 INFO:Xst:2261 - The FF/Latch <USER_LOGIC_I/Inst_VmodCAM/Inst_camctlB/rstCnt_5> in Unit <vmodcam> is equivalent to the following FF/Latch, which will be removed : <USER_LOGIC_I/Inst_VmodCAM/Inst_camctlA/rstCnt_5> 
 INFO:Xst:2261 - The FF/Latch <USER_LOGIC_I/Inst_VmodCAM/Inst_camctlB/rstCnt_6> in Unit <vmodcam> is equivalent to the following FF/Latch, which will be removed : <USER_LOGIC_I/Inst_VmodCAM/Inst_camctlA/rstCnt_6> 
 INFO:Xst:2261 - The FF/Latch <USER_LOGIC_I/Inst_VmodCAM/Inst_camctlB/rstCnt_7> in Unit <vmodcam> is equivalent to the following FF/Latch, which will be removed : <USER_LOGIC_I/Inst_VmodCAM/Inst_camctlA/rstCnt_7> 
 INFO:Xst:2261 - The FF/Latch <USER_LOGIC_I/Inst_VmodCAM/Inst_camctlB/rstCnt_8> in Unit <vmodcam> is equivalent to the following FF/Latch, which will be removed : <USER_LOGIC_I/Inst_VmodCAM/Inst_camctlA/rstCnt_8> 
 INFO:Xst:2261 - The FF/Latch <USER_LOGIC_I/Inst_VmodCAM/Inst_camctlB/rstCnt_9> in Unit <vmodcam> is equivalent to the following FF/Latch, which will be removed : <USER_LOGIC_I/Inst_VmodCAM/Inst_camctlA/rstCnt_9> 
+INFO:Xst:2261 - The FF/Latch <USER_LOGIC_I/pa_wr_addr_30> in Unit <vmodcam> is equivalent to the following 26 FFs/Latches, which will be removed : <USER_LOGIC_I/pa_wr_addr_28> <USER_LOGIC_I/pa_wr_addr_27> <USER_LOGIC_I/pa_wr_addr_26> <USER_LOGIC_I/pa_wr_addr_25> <USER_LOGIC_I/pa_wr_addr_24> <USER_LOGIC_I/pa_wr_addr_23> <USER_LOGIC_I/pa_wr_addr_22> <USER_LOGIC_I/pa_wr_addr_21> <USER_LOGIC_I/pa_wr_addr_20> <USER_LOGIC_I/pa_wr_addr_19> <USER_LOGIC_I/pa_wr_addr_18> <USER_LOGIC_I/pa_wr_addr_17> <USER_LOGIC_I/pa_wr_addr_16> <USER_LOGIC_I/pa_wr_addr_15> <USER_LOGIC_I/pa_wr_addr_14> <USER_LOGIC_I/pa_wr_addr_13> <USER_LOGIC_I/pa_wr_addr_12> <USER_LOGIC_I/pa_wr_addr_11> <USER_LOGIC_I/pa_wr_addr_10> <USER_LOGIC_I/pa_wr_addr_9> <USER_LOGIC_I/pa_wr_addr_8> <USER_LOGIC_I/pa_wr_addr_7> <USER_LOGIC_I/pa_wr_addr_6> <USER_LOGIC_I/pa_wr_addr_5> <USER_LOGIC_I/pa_wr_addr_4> <USER_LOGIC_I/pa_wr_addr_3> 
+INFO:Xst:2261 - The FF/Latch <USER_LOGIC_I/pa_wr_addr_31> in Unit <vmodcam> is equivalent to the following FF/Latch, which will be removed : <USER_LOGIC_I/pa_wr_addr_29> 
+INFO:Xst:2261 - The FF/Latch <USER_LOGIC_I/mst_llwr_sm_state_FSM_FFd1> in Unit <vmodcam> is equivalent to the following FF/Latch, which will be removed : <USER_LOGIC_I/mst_llwr_sm_eof> 
 INFO:Xst:2261 - The FF/Latch <USER_LOGIC_I/Inst_VmodCAM/Inst_camctlB/rstCnt_10> in Unit <vmodcam> is equivalent to the following FF/Latch, which will be removed : <USER_LOGIC_I/Inst_VmodCAM/Inst_camctlA/rstCnt_10> 
 INFO:Xst:2261 - The FF/Latch <USER_LOGIC_I/Inst_VmodCAM/Inst_camctlB/rstCnt_11> in Unit <vmodcam> is equivalent to the following FF/Latch, which will be removed : <USER_LOGIC_I/Inst_VmodCAM/Inst_camctlA/rstCnt_11> 
 INFO:Xst:2261 - The FF/Latch <USER_LOGIC_I/Inst_VmodCAM/Inst_camctlB/rstCnt_12> in Unit <vmodcam> is equivalent to the following FF/Latch, which will be removed : <USER_LOGIC_I/Inst_VmodCAM/Inst_camctlA/rstCnt_12> 
@@ -2897,8 +2909,8 @@ Unit <vmodcam> processed.
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 845
- Flip-Flops                                            : 845
+# Registers                                            : 762
+ Flip-Flops                                            : 762
 
 =========================================================================
 
@@ -2921,29 +2933,29 @@ Top Level Output File Name         : vmodcam.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 1515
+# BELS                             : 1417
 #      GND                         : 3
 #      INV                         : 32
 #      LUT1                        : 62
-#      LUT2                        : 128
-#      LUT3                        : 187
-#      LUT4                        : 181
-#      LUT5                        : 217
-#      LUT6                        : 385
+#      LUT2                        : 127
+#      LUT3                        : 188
+#      LUT4                        : 177
+#      LUT5                        : 187
+#      LUT6                        : 347
 #      MUXCY                       : 158
 #      MUXCY_L                     : 6
-#      MUXF7                       : 6
+#      MUXF7                       : 7
 #      VCC                         : 2
-#      XORCY                       : 148
-# FlipFlops/Latches                : 999
-#      FD                          : 274
+#      XORCY                       : 121
+# FlipFlops/Latches                : 916
+#      FD                          : 247
 #      FDC                         : 82
 #      FDCE                        : 44
 #      FDE                         : 197
 #      FDP                         : 17
 #      FDPE                        : 2
-#      FDR                         : 99
-#      FDRE                        : 258
+#      FDR                         : 70
+#      FDRE                        : 231
 #      FDS                         : 10
 #      FDSE                        : 6
 #      LD                          : 8
@@ -2968,18 +2980,18 @@ Selected Device : 6slx45csg324-3
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:             991  out of  54576     1%  
- Number of Slice LUTs:                 1267  out of  27288     4%  
-    Number used as Logic:              1192  out of  27288     4%  
+ Number of Slice Registers:             908  out of  54576     1%  
+ Number of Slice LUTs:                 1195  out of  27288     4%  
+    Number used as Logic:              1120  out of  27288     4%  
     Number used as Memory:               75  out of   6408     1%  
        Number used as RAM:               66
        Number used as SRL:                9
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:   1506
-   Number with an unused Flip Flop:     515  out of   1506    34%  
-   Number with an unused LUT:           239  out of   1506    15%  
-   Number of fully used LUT-FF pairs:   752  out of   1506    49%  
+ Number of LUT Flip Flop pairs used:   1416
+   Number with an unused Flip Flop:     508  out of   1416    35%  
+   Number with an unused LUT:           221  out of   1416    15%  
+   Number of fully used LUT-FF pairs:   687  out of   1416    48%  
    Number of unique control sets:        71
 
 IO Utilization: 
@@ -3015,13 +3027,13 @@ Clock Information:
 -------------------------------------------------------------------------------+------------------------------+-------+
 Clock Signal                                                                   | Clock buffer(FF name)        | Load  |
 -------------------------------------------------------------------------------+------------------------------+-------+
-S_AXI_ACLK                                                                     | BUFGP                        | 166   |
+S_AXI_ACLK                                                                     | BUFGP                        | 110   |
 USER_LOGIC_I/SW_I[3]_SW_I[3]_OR_257_o(USER_LOGIC_I/SW_I[3]_SW_I[3]_OR_257_o1:O)| NONE(*)(USER_LOGIC_I/LED_O_0)| 8     |
 CAMA_PCLK_I                                                                    | IBUF+BUFG                    | 116   |
 CamClk                                                                         | BUFGP                        | 240   |
 CamClk_180                                                                     | BUFGP                        | 2     |
 CAMB_PCLK_I                                                                    | IBUF+BUFG                    | 17    |
-m_axi_aclk                                                                     | BUFGP                        | 531   |
+m_axi_aclk                                                                     | BUFGP                        | 504   |
 -------------------------------------------------------------------------------+------------------------------+-------+
 (*) This 1 clock signal(s) are generated by combinatorial logic,
 and XST is not able to identify which are the primary clock signals.
@@ -3047,27 +3059,55 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'S_AXI_ACLK'
-  Clock period: 4.757ns (frequency: 210.209MHz)
-  Total number of paths / destination ports: 2087 / 308
+  Clock period: 3.969ns (frequency: 251.923MHz)
+  Total number of paths / destination ports: 586 / 223
 -------------------------------------------------------------------------
-Delay:               4.757ns (Levels of Logic = 3)
-  Source:            USER_LOGIC_I/pa_wr_addr_2 (FF)
+Delay:               3.969ns (Levels of Logic = 31)
+  Source:            USER_LOGIC_I/pa_wr_addr_30 (FF)
   Destination:       USER_LOGIC_I/pa_wr_addr_31 (FF)
   Source Clock:      S_AXI_ACLK rising
   Destination Clock: S_AXI_ACLK rising
 
-  Data Path: USER_LOGIC_I/pa_wr_addr_2 to USER_LOGIC_I/pa_wr_addr_31
+  Data Path: USER_LOGIC_I/pa_wr_addr_30 to USER_LOGIC_I/pa_wr_addr_31
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FD:C->Q               4   0.447   1.048  USER_LOGIC_I/pa_wr_addr_2 (USER_LOGIC_I/pa_wr_addr_2)
-     LUT6:I0->O            1   0.203   0.944  USER_LOGIC_I/pa_wr_addr[31]_PWR_71_o_equal_160_o<31>4 (USER_LOGIC_I/pa_wr_addr[31]_PWR_71_o_equal_160_o<31>3)
-     LUT6:I0->O           30   0.203   1.608  USER_LOGIC_I/pa_wr_addr[31]_PWR_71_o_equal_160_o<31>6 (USER_LOGIC_I/pa_wr_addr[31]_PWR_71_o_equal_160_o)
-     LUT6:I1->O            1   0.203   0.000  USER_LOGIC_I/Mmux_cama_sm_state[1]_PWR_71_o_mux_168_OUT221 (USER_LOGIC_I/cama_sm_state[1]_PWR_71_o_mux_168_OUT<29>)
-     FD:D                      0.102          USER_LOGIC_I/pa_wr_addr_29
+     FD:C->Q              34   0.447   1.321  USER_LOGIC_I/pa_wr_addr_30 (USER_LOGIC_I/pa_wr_addr_30)
+     LUT1:I0->O            1   0.205   0.000  USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<3>_rt (USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<3>_rt)
+     MUXCY:S->O            1   0.172   0.000  USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<3> (USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<4> (USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<4>)
+     MUXCY:CI->O           1   0.019   0.000  USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<5> (USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<5>)
+     MUXCY:CI->O           1   0.019   0.000  USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<6> (USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<6>)
+     MUXCY:CI->O           1   0.019   0.000  USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<7> (USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<7>)
+     MUXCY:CI->O           1   0.019   0.000  USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<8> (USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<8>)
+     MUXCY:CI->O           1   0.019   0.000  USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<9> (USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<9>)
+     MUXCY:CI->O           1   0.019   0.000  USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<10> (USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<10>)
+     MUXCY:CI->O           1   0.019   0.000  USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<11> (USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<11>)
+     MUXCY:CI->O           1   0.019   0.000  USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<12> (USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<12>)
+     MUXCY:CI->O           1   0.019   0.000  USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<13> (USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<13>)
+     MUXCY:CI->O           1   0.019   0.000  USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<14> (USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<14>)
+     MUXCY:CI->O           1   0.019   0.000  USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<15> (USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<15>)
+     MUXCY:CI->O           1   0.019   0.000  USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<16> (USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<16>)
+     MUXCY:CI->O           1   0.019   0.000  USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<17> (USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<17>)
+     MUXCY:CI->O           1   0.019   0.000  USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<18> (USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<18>)
+     MUXCY:CI->O           1   0.019   0.000  USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<19> (USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<19>)
+     MUXCY:CI->O           1   0.019   0.000  USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<20> (USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<20>)
+     MUXCY:CI->O           1   0.019   0.000  USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<21> (USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<21>)
+     MUXCY:CI->O           1   0.019   0.000  USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<22> (USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<22>)
+     MUXCY:CI->O           1   0.019   0.000  USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<23> (USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<23>)
+     MUXCY:CI->O           1   0.019   0.000  USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<24> (USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<24>)
+     MUXCY:CI->O           1   0.019   0.000  USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<25> (USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<25>)
+     MUXCY:CI->O           1   0.019   0.000  USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<26> (USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<26>)
+     MUXCY:CI->O           1   0.019   0.000  USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<27> (USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<27>)
+     MUXCY:CI->O           1   0.019   0.000  USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<28> (USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<28>)
+     MUXCY:CI->O           1   0.019   0.000  USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<29> (USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<29>)
+     MUXCY:CI->O           0   0.019   0.000  USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<30> (USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_cy<30>)
+     XORCY:CI->O           1   0.180   0.827  USER_LOGIC_I/Madd_pa_wr_addr[31]_GND_180_o_add_161_OUT_xor<31> (USER_LOGIC_I/pa_wr_addr[31]_GND_180_o_add_161_OUT<31>)
+     LUT6:I2->O            1   0.203   0.000  USER_LOGIC_I/Mmux_cama_sm_state[1]_PWR_71_o_mux_170_OUT251 (USER_LOGIC_I/cama_sm_state[1]_PWR_71_o_mux_170_OUT<31>)
+     FD:D                      0.102          USER_LOGIC_I/pa_wr_addr_31
     ----------------------------------------
-    Total                      4.757ns (1.158ns logic, 3.599ns route)
-                                       (24.3% logic, 75.7% route)
+    Total                      3.969ns (1.822ns logic, 2.147ns route)
+                                       (45.9% logic, 54.1% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'CAMA_PCLK_I'
@@ -3142,7 +3182,7 @@ Delay:               2.010ns (Levels of Logic = 1)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'm_axi_aclk'
   Clock period: 7.053ns (frequency: 141.777MHz)
-  Total number of paths / destination ports: 14976 / 1094
+  Total number of paths / destination ports: 14785 / 1040
 -------------------------------------------------------------------------
 Delay:               7.053ns (Levels of Logic = 5)
   Source:            AXI_MASTER_BURST_I/I_RD_WR_CNTRL_MODULE/I_RD_DATA_CNTL/sig_addr_posted_cntr_2 (FF)
@@ -3167,30 +3207,31 @@ Delay:               7.053ns (Levels of Logic = 5)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'S_AXI_ACLK'
-  Total number of paths / destination ports: 142 / 95
+  Total number of paths / destination ports: 79 / 39
 -------------------------------------------------------------------------
-Offset:              4.527ns (Levels of Logic = 3)
-  Source:            S_AXI_ARESETN (PAD)
-  Destination:       USER_LOGIC_I/pa_wr_addr_30 (FF)
+Offset:              4.442ns (Levels of Logic = 4)
+  Source:            S_AXI_ARVALID (PAD)
+  Destination:       AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_out_i_0 (FF)
   Destination Clock: S_AXI_ACLK rising
 
-  Data Path: S_AXI_ARESETN to USER_LOGIC_I/pa_wr_addr_30
+  Data Path: S_AXI_ARVALID to AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_out_i_0
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O             8   1.222   0.803  S_AXI_ARESETN_IBUF (S_AXI_ARESETN_IBUF)
-     LUT2:I1->O           80   0.205   1.993  SOFT_RESET_I/Reset2IP_Reset1 (USER_LOGIC_I/Bus2IP_Reset)
-     LUT6:I2->O            1   0.203   0.000  USER_LOGIC_I/Mmux_cama_sm_state[1]_PWR_71_o_mux_168_OUT22 (USER_LOGIC_I/cama_sm_state[1]_PWR_71_o_mux_168_OUT<10>)
-     FD:D                      0.102          USER_LOGIC_I/pa_wr_addr_10
+     IBUF:I->O             7   1.222   1.118  S_AXI_ARVALID_IBUF (S_AXI_ARVALID_IBUF)
+     LUT5:I0->O            1   0.203   0.808  AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/MEM_DECODE_GEN[0].GEN_FOR_MULTI_CS.MEM_SELECT_I/Mmux_CS115 (AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/MEM_DECODE_GEN[0].GEN_FOR_MULTI_CS.MEM_SELECT_I/Mmux_CS115)
+     LUT6:I3->O            1   0.205   0.580  AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_out_i_0_rstpot1_SW1 (N250)
+     LUT5:I4->O            1   0.205   0.000  AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_out_i_0_rstpot1 (AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_out_i_0_rstpot1)
+     FD:D                      0.102          AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_out_i_0
     ----------------------------------------
-    Total                      4.527ns (1.732ns logic, 2.795ns route)
-                                       (38.3% logic, 61.7% route)
+    Total                      4.442ns (1.937ns logic, 2.505ns route)
+                                       (43.6% logic, 56.4% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'USER_LOGIC_I/SW_I[3]_SW_I[3]_OR_257_o'
-  Total number of paths / destination ports: 64 / 8
+  Total number of paths / destination ports: 59 / 8
 -------------------------------------------------------------------------
-Offset:              4.049ns (Levels of Logic = 3)
+Offset:              3.949ns (Levels of Logic = 3)
   Source:            SW_I<1> (PAD)
   Destination:       USER_LOGIC_I/LED_O_0 (LATCH)
   Destination Clock: USER_LOGIC_I/SW_I[3]_SW_I[3]_OR_257_o falling
@@ -3199,19 +3240,19 @@ Offset:              4.049ns (Levels of Logic = 3)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O            25   1.222   1.557  SW_I_1_IBUF (SW_I_1_IBUF)
+     IBUF:I->O            20   1.222   1.457  SW_I_1_IBUF (SW_I_1_IBUF)
      LUT6:I0->O            1   0.203   0.827  USER_LOGIC_I/Mmux_LED_O[7]_bus2ip_mst_cmdack_MUX_1204_o_7 (USER_LOGIC_I/Mmux_LED_O[7]_bus2ip_mst_cmdack_MUX_1204_o_7)
      LUT6:I2->O            1   0.203   0.000  USER_LOGIC_I/SW_I<3>1 (USER_LOGIC_I/LED_O[7]_bus2ip_mst_cmdack_MUX_1204_o)
      LD:D                      0.037          USER_LOGIC_I/LED_O_4
     ----------------------------------------
-    Total                      4.049ns (1.665ns logic, 2.384ns route)
-                                       (41.1% logic, 58.9% route)
+    Total                      3.949ns (1.665ns logic, 2.284ns route)
+                                       (42.2% logic, 57.8% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'CAMA_PCLK_I'
   Total number of paths / destination ports: 40 / 40
 -------------------------------------------------------------------------
-Offset:              4.404ns (Levels of Logic = 2)
+Offset:              3.873ns (Levels of Logic = 2)
   Source:            S_AXI_ARESETN (PAD)
   Destination:       USER_LOGIC_I/p1_wr_en (FF)
   Destination Clock: CAMA_PCLK_I rising
@@ -3220,12 +3261,12 @@ Offset:              4.404ns (Levels of Logic = 2)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O             8   1.222   0.803  S_AXI_ARESETN_IBUF (S_AXI_ARESETN_IBUF)
-     LUT2:I1->O           80   0.205   1.745  SOFT_RESET_I/Reset2IP_Reset1 (USER_LOGIC_I/Bus2IP_Reset)
+     IBUF:I->O            11   1.222   0.883  S_AXI_ARESETN_IBUF (S_AXI_ARESETN_IBUF)
+     LUT2:I1->O           22   0.205   1.133  SOFT_RESET_I/Reset2IP_Reset1 (USER_LOGIC_I/Bus2IP_Reset)
      FDR:R                     0.430          USER_LOGIC_I/p1_wr_en
     ----------------------------------------
-    Total                      4.404ns (1.857ns logic, 2.547ns route)
-                                       (42.2% logic, 57.8% route)
+    Total                      3.873ns (1.857ns logic, 2.016ns route)
+                                       (47.9% logic, 52.1% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'CamClk'
@@ -3311,7 +3352,7 @@ Offset:              3.648ns (Levels of Logic = 1)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'S_AXI_ACLK'
-  Total number of paths / destination ports: 15 / 7
+  Total number of paths / destination ports: 14 / 6
 -------------------------------------------------------------------------
 Offset:              4.817ns (Levels of Logic = 2)
   Source:            AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DPHASE_TIMER.dpto_cnt_3 (FF)
@@ -3381,7 +3422,7 @@ Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
 CAMA_PCLK_I    |    3.025|         |         |         |
 CamClk         |    2.075|         |         |         |
-S_AXI_ACLK     |    3.644|         |         |         |
+S_AXI_ACLK     |    3.147|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock CAMB_PCLK_I
@@ -3407,8 +3448,8 @@ Clock to Setup on destination clock S_AXI_ACLK
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
 CAMA_PCLK_I    |    1.128|         |         |         |
-S_AXI_ACLK     |    4.757|         |         |         |
-m_axi_aclk     |    4.139|         |         |         |
+S_AXI_ACLK     |    3.969|         |         |         |
+m_axi_aclk     |    2.098|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock USER_LOGIC_I/SW_I[3]_SW_I[3]_OR_257_o
@@ -3418,8 +3459,8 @@ Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
 CAMA_PCLK_I    |         |         |    2.504|         |
 CAMB_PCLK_I    |         |         |    2.581|         |
-S_AXI_ACLK     |         |         |    2.630|         |
-m_axi_aclk     |         |         |    2.052|         |
+S_AXI_ACLK     |         |         |    3.305|         |
+m_axi_aclk     |         |         |    1.546|         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock m_axi_aclk
@@ -3427,21 +3468,21 @@ Clock to Setup on destination clock m_axi_aclk
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-S_AXI_ACLK     |    3.319|         |         |         |
+S_AXI_ACLK     |    2.774|         |         |         |
 m_axi_aclk     |    7.053|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 93.00 secs
-Total CPU time to Xst completion: 92.53 secs
+Total REAL time to Xst completion: 101.00 secs
+Total CPU time to Xst completion: 101.46 secs
  
 --> 
 
-Total memory usage is 345336 kilobytes
+Total memory usage is 331960 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :  746 (   0 filtered)
-Number of infos    :  137 (   0 filtered)
+Number of warnings :  747 (   0 filtered)
+Number of infos    :  145 (   0 filtered)
 
