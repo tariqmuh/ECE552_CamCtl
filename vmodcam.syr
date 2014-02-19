@@ -3,13 +3,13 @@ Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
+Total REAL time to Xst completion: 1.00 secs
 Total CPU time to Xst completion: 0.31 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 0.00 secs
+Total REAL time to Xst completion: 1.00 secs
 Total CPU time to Xst completion: 0.31 secs
  
 --> Reading design: vmodcam.prj
@@ -2979,11 +2979,11 @@ Primitive and Black Box Usage:
 #      GND                         : 5
 #      INV                         : 40
 #      LUT1                        : 84
-#      LUT2                        : 200
+#      LUT2                        : 199
 #      LUT3                        : 208
 #      LUT4                        : 276
 #      LUT5                        : 232
-#      LUT6                        : 420
+#      LUT6                        : 421
 #      MUXCY                       : 271
 #      MUXCY_L                     : 6
 #      MUXF7                       : 6
@@ -3102,7 +3102,7 @@ All values displayed in nanoseconds (ns)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'S_AXI_ACLK'
   Clock period: 4.870ns (frequency: 205.342MHz)
-  Total number of paths / destination ports: 5390 / 679
+  Total number of paths / destination ports: 5406 / 679
 -------------------------------------------------------------------------
 Delay:               4.870ns (Levels of Logic = 3)
   Source:            USER_LOGIC_I/p1_en (FF)
@@ -3492,7 +3492,7 @@ m_axi_aclk     |    6.080|         |         |         |
 
 
 Total REAL time to Xst completion: 92.00 secs
-Total CPU time to Xst completion: 91.84 secs
+Total CPU time to Xst completion: 91.99 secs
  
 --> 
 

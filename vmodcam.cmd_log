@@ -66,3 +66,4 @@ xst -intstyle ise -ifn "C:/fpga/ISE/ECE552_CamCtl/vmodcam.xst" -ofn "C:/fpga/ISE
 xst -intstyle ise -ifn "C:/fpga/ISE/ECE552_CamCtl/vmodcam.xst" -ofn "C:/fpga/ISE/ECE552_CamCtl/vmodcam.syr" 
 xst -intstyle ise -ifn "C:/fpga/ISE/ECE552_CamCtl/vmodcam.xst" -ofn "C:/fpga/ISE/ECE552_CamCtl/vmodcam.syr" 
 xst -intstyle ise -ifn "C:/fpga/ISE/ECE552_CamCtl/vmodcam.xst" -ofn "C:/fpga/ISE/ECE552_CamCtl/vmodcam.syr" 
+xst -intstyle ise -ifn "C:/fpga/ISE/ECE552_CamCtl/vmodcam.xst" -ofn "C:/fpga/ISE/ECE552_CamCtl/vmodcam.syr" 

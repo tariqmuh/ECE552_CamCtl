@@ -1148,7 +1148,7 @@ CAMA_FIFO : fifo
 						
 					when CAM_IDLE => 
 							
-						if(p1_rd_data_count >= X"40" or p2_rd_data_count >= X"40") then
+						if(p1_rd_data_count >= X"10" or p2_rd_data_count >= X"10") then
 							if(p1_rd_data_count > p2_rd_data_count) then
 								cama_sm_state <= CAMA_INIT;
 								mst_cntl_wr_req <= '1';
