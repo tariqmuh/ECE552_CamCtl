@@ -1082,7 +1082,7 @@ CAMA_FIFO : fifo
 	rd_data_count => p2_rd_data_count
   );
 	
-	IP2Bus_MstWr_d <= p1_data_out;
+	IP2Bus_MstWr_d <= p1_data_out when p1_en = '1' else p2_data_out;
 
 	p1_wr_data(31 downto 16) <= DIA;
 	p2_wr_data(31 downto 16) <= DIB;
