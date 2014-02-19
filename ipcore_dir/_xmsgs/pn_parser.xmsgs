@@ -8,7 +8,10 @@
 <!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/tariqmuh/Documents/GitHub/ECE552_CamCtl/ipcore_dir/fifo_synth.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/fpga/ISE/ECE552_CamCtl/ipcore_dir/fifo.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/fpga/ISE/ECE552_CamCtl/ipcore_dir/fifo_synth.vhd&quot; into library work</arg>
 </msg>
 
 </messages>

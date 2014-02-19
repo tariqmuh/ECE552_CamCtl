@@ -217,8 +217,7 @@ entity vmodcam is
 		CAMB_LV_I : inout STD_LOGIC; -- inout Workaround for IN_TERM bug AR# 	40818
 		CAMB_FV_I : inout STD_LOGIC; -- inout Workaround for IN_TERM bug AR# 	40818
 		CAMB_RST_O : out STD_LOGIC; --Reset active LOW
-		CAMB_PWDN_O : out STD_LOGIC; --Power-down active HIGH
-		CAMA_CLK: out STD_LOGIC;		
+		CAMB_PWDN_O : out STD_LOGIC; --Power-down active HIGH	
     -- ADD USER PORTS ABOVE THIS LINE ------------------
 
     -- DO NOT EDIT BELOW THIS LINE ---------------------
@@ -633,7 +632,6 @@ begin
 		CAMB_FV_I => CAMB_FV_I,
 		CAMB_RST_O => CAMB_RST_O,
 		CAMB_PWDN_O => CAMB_PWDN_O,
-		CAMA_CLK => CAMA_CLK,
       -- MAP USER PORTS ABOVE THIS LINE ------------------
 
       Bus2IP_Clk                     => ipif_Bus2IP_Clk,

@@ -170,7 +170,6 @@ entity user_logic is
 		CAMB_FV_I : inout STD_LOGIC; -- inout Workaround for IN_TERM bug AR# 	40818
 		CAMB_RST_O : out STD_LOGIC; --Reset active LOW
 		CAMB_PWDN_O : out STD_LOGIC; --Power-down active HIGH	
-		CAMA_CLK: out STD_LOGIC;	
     -- ADD USER PORTS ABOVE THIS LINE ------------------
 
     -- DO NOT EDIT BELOW THIS LINE ---------------------
@@ -237,25 +236,15 @@ architecture IMP of user_logic is
 -- Title : Port B - write only
 ------------------------------------------------------------------------------------
 		signal ENB : STD_LOGIC; --port enable
-		signal RSTB_I :  STD_LOGIC; --asynchronous port reset
 		signal DIB :   STD_LOGIC_VECTOR (COLORDEPTH - 1 downto 0); --data output
 		signal CLKB :   STD_LOGIC; --port clock
 ------------------------------------------------------------------------------------
 -- Title : Port A - write only
 ------------------------------------------------------------------------------------
 		signal ENA :  STD_LOGIC; --port enable
-		signal RSTA_I :  STD_LOGIC; --asynchronous port reset
 		signal DIA : STD_LOGIC_VECTOR (COLORDEPTH - 1 downto 0); --data output
 		signal CLKA : STD_LOGIC; --port clock
 		
-		signal RstA : STD_LOGIC;
-		signal SCalibDoneA : STD_LOGIC;
-		signal SRstA : STD_LOGIC;
-		
-
-		signal RstB : STD_LOGIC;
-		signal SRstB : STD_LOGIC;
-		signal SCalibDoneB : STD_LOGIC;
 		
 constant WR_BATCH : natural := 32;
 	--memory address space reserved for a video memory (one for each camera)
@@ -268,65 +257,28 @@ constant WR_BATCH : natural := 32;
 ----------------------------------------------------------------------------------
 -- Internal signals
 ---------------------------------------------------------------------------------- 	
-	signal calib_done        	: std_logic;
-	signal p3_cmd_clk        	: std_logic;
-   signal p3_cmd_en          	: std_logic;
-   signal p3_cmd_instr        : std_logic_vector(2 downto 0);
-	signal p3_cmd_bl           : std_logic_vector(5 downto 0);
-	signal p3_cmd_byte_addr    : std_logic_vector(29 downto 0);
-	signal p3_cmd_empty        : std_logic;
-	signal p3_cmd_full         : std_logic;
-	signal p3_rd_clk           : std_logic;
-	signal p3_rd_en            : std_logic;
-	signal p3_rd_data          : std_logic_vector(31 downto 0) ;
-	signal p3_rd_full          : std_logic;
-	signal p3_rd_empty         : std_logic;
-	signal p3_rd_count         : std_logic_vector(6 downto 0) ;
-	signal p3_rd_overflow      : std_logic;
-	signal p3_rd_error         : std_logic;
 
-	
-	signal p1_cmd_clk        	: std_logic;
-   signal p1_cmd_en          	: std_logic;
-   signal p1_cmd_instr        : std_logic_vector(2 downto 0);
-	signal p1_cmd_bl           : std_logic_vector(5 downto 0);
-	signal p1_cmd_byte_addr    : std_logic_vector(29 downto 0);
-	signal p1_cmd_empty        : std_logic;
-	signal p1_cmd_full         : std_logic;
-	signal p1_wr_clk           : std_logic;
 	signal p1_wr_en            : std_logic;
 	signal p1_wr_data          : std_logic_vector(C3_P1_DATA_PORT_SIZE - 1 downto 0) ;
-	signal p1_wr_mask				: std_logic_vector(C3_P1_MASK_SIZE - 1 downto 0);
 	signal p1_wr_full          : std_logic;
 	signal p1_wr_empty         : std_logic;
 	signal p1_fifo_full         : std_logic;
 	signal p1_rd_data_count			: std_logic_vector (10 DOWNTO 0);
 	signal p1_data_out 			: std_logic_vector (C3_P1_DATA_PORT_SIZE -1 downto 0);
-	signal p1_rd_en 				: std_logic;
-	signal p1_wr_count         : std_logic_vector(6 downto 0) ;
-	signal p1_wr_underrun     : std_logic;
-	signal p1_wr_error         : std_logic;
+	signal p1_en					: std_logic;
 
-	signal p2_cmd_clk        	: std_logic;
-   signal p2_cmd_en          	: std_logic;
-   signal p2_cmd_instr        : std_logic_vector(2 downto 0);
-	signal p2_cmd_bl           : std_logic_vector(5 downto 0);
-	signal p2_cmd_byte_addr    : std_logic_vector(29 downto 0);
-	signal p2_cmd_empty        : std_logic;
-	signal p2_cmd_full         : std_logic;
-	signal p2_wr_clk           : std_logic;
 	signal p2_wr_en            : std_logic;
 	signal p2_wr_data          : std_logic_vector(31 downto 0) ;
-	signal p2_wr_mask				: std_logic_vector(3 downto 0);
 	signal p2_wr_full          : std_logic;
 	signal p2_wr_empty         : std_logic;
-	signal p2_wr_count         : std_logic_vector(6 downto 0) ;
-	signal p2_wr_underrun     : std_logic;
-	signal p2_wr_error         : std_logic;	
+	signal p2_fifo_full         : std_logic;
+	signal p2_rd_data_count			: std_logic_vector (10 DOWNTO 0);
+	signal p2_data_out 			: std_logic_vector (C3_P1_DATA_PORT_SIZE -1 downto 0);
+	signal p2_en					: std_logic;
 	
 	signal pa_wr_cnt, pb_wr_cnt : natural := 0;
 	signal pa_wr_addr, pb_wr_addr : std_logic_vector(C_MST_AWIDTH-1 downto 0);
-	signal pa_wr_data_sel, pa_int_rst, pb_wr_data_sel, pb_int_rst : std_logic;
+	signal pa_wr_data_sel, pb_wr_data_sel : std_logic;
 
   ------------------------------------------
   -- Signals for user logic slave model s/w accessible register example
@@ -398,7 +350,7 @@ constant WR_BATCH : natural := 32;
   signal mst_fifo_valid_write_xfer      : std_logic;
   signal mst_fifo_valid_read_xfer       : std_logic;
   signal Bus2IP_Reset                   : std_logic;
-  type CAMA_SM_TYPE is (CAMA_IDLE, CAMA_INIT, CAMA_GO, CAMA_DONE);
+  type CAMA_SM_TYPE is (CAM_IDLE, CAMA_INIT, CAMA_GO, CAMB_INIT, CAMB_GO);
   signal cama_sm_state : CAMA_SM_TYPE;
 attribute SIGIS of Bus2IP_Reset   : signal is "RST";
 
@@ -1094,50 +1046,46 @@ begin
 		CAMB_PWDN_O => CAMB_PWDN_O,
 		
 		ENB => ENB,
-		RSTB_I => RSTB_I,
 		DIB => DIB,
 		CLKB => CLKB,
 		
 		ENA => ENA,
-		RSTA_I => RSTA_I,
 		DIA => DIA,
 		CLKA => CLKA
 	);
 
-CAM_FIFO : fifo
+CAMA_FIFO : fifo
   PORT MAP (
     rst => Bus2IP_Reset,
     wr_clk => CLKA,
     rd_clk => Bus2IP_Clk,
     din => p1_wr_data,
     wr_en => p1_wr_en,
-    rd_en => mst_fifo_valid_read_xfer, --p1_rd_en,
+    rd_en => mst_fifo_valid_read_xfer and p1_en,
     dout => p1_data_out,
     full => p1_fifo_full,
     empty => p1_wr_empty,
 	rd_data_count => p1_rd_data_count
   );
+  
+  CAMB_FIFO : fifo
+  PORT MAP (
+    rst => Bus2IP_Reset,
+    wr_clk => CLKB,
+    rd_clk => Bus2IP_Clk,
+    din => p2_wr_data,
+    wr_en => p2_wr_en,
+    rd_en => mst_fifo_valid_read_xfer and p2_en,
+    dout => p2_data_out,
+    full => p2_fifo_full,
+    empty => p2_wr_empty,
+	rd_data_count => p2_rd_data_count
+  );
 	
 	IP2Bus_MstWr_d <= p1_data_out;
 
-	CAMA_CLK <= CLKA;
 	p1_wr_data(31 downto 16) <= DIA;
-
---	process(Bus2IP_Clk) begin
---		if Rising_Edge(Bus2IP_Clk) then
---			if ( Bus2IP_Resetn = '0' ) then
---				pa_wr_addr <= X"A0000000";
---			else
---				if (mst_fifo_valid_read_xfer = '1') then
---					if (pa_wr_addr = X"A0000000" + 1600*1200*2) then
---						pa_wr_addr <= X"A0000000";
---					else
---						pa_wr_addr <= pa_wr_addr + 4;
---					end if;
---				end if;
---			end if;
---		end if;
---	end process;
+	p2_wr_data(31 downto 16) <= DIB;
 
 	process(CLKA) begin
 		if Rising_Edge(CLKA) then
@@ -1161,29 +1109,58 @@ CAM_FIFO : fifo
 			end if;
 		end if;
 	end process;
+	
+	process(CLKB) begin
+		if Rising_Edge(CLKB) then
+			if ( Bus2IP_Resetn = '0' ) then
+					p2_wr_en <= '0';
+
+					pb_wr_data_sel <= '0';
+			else
+				if(ENB = '1') then
+					if (pb_wr_data_sel = '0') then
+						p2_wr_data(15 downto 0) <= DIB;
+					end if;
+
+					p2_wr_en <= pb_wr_data_sel;
+					
+					pb_wr_data_sel <= not pb_wr_data_sel;
+				else 
+					p2_wr_en <= '0';
+			
+				end if;
+			end if;
+		end if;
+	end process;
 
 	process(Bus2IP_Clk) begin
 		if Rising_Edge(Bus2IP_Clk) then
 			if ( Bus2IP_Resetn = '0' ) then
-					cama_sm_state <= CAMA_IDLE;
+					cama_sm_state <= CAM_IDLE;
 					mst_cntl_wr_req <= '0';
 					pa_wr_addr <= X"A0000000";
+					pb_wr_addr <= X"A8000000";
+					p1_en <= '0';
+					p2_en <= '0';
 			else
-				--mst_cntl_wr_req <= '0';
-				--pa_wr_addr <= X"A0000000";
 				
 				case cama_sm_state is
 						
-					when CAMA_IDLE => 
+					when CAM_IDLE => 
 							
-						if(p1_rd_data_count >= X"40") then
-							cama_sm_state <= CAMA_INIT;
-							mst_cntl_wr_req <= '1';
-							p1_rd_en <= '1';
+						if(p1_rd_data_count >= X"40" or p2_rd_data_count >= X"40") then
+							if(p1_rd_data_count > p2_rd_data_count) then
+								cama_sm_state <= CAMA_INIT;
+								mst_cntl_wr_req <= '1';
+								p1_en <= '1';
+							else 
+								cama_sm_state <= CAMB_INIT;
+								mst_cntl_wr_req <= '1';
+								p2_en <= '1';
+							end if;
 						end if;
 						
 					when CAMA_INIT =>
-						p1_rd_en <= '0';
 						if(Bus2IP_Mst_CmdAck = '1') then
 							cama_sm_state <= CAMA_GO;
 							mst_cntl_wr_req <= '0';
@@ -1194,23 +1171,44 @@ CAM_FIFO : fifo
 					when CAMA_GO =>
 						
 						if(Bus2IP_Mst_Cmplt = '1') then
-							cama_sm_state <= CAMA_IDLE;
-							if (pa_wr_addr = X"A3A97FC") then
+							cama_sm_state <= CAM_IDLE;
+							p1_en <= '0';
+							if (pa_wr_addr = X"A03A97C0") then
 								pa_wr_addr <= X"A0000000";
 							else
-								pa_wr_addr <= pa_wr_addr + 256;
+								pa_wr_addr <= pa_wr_addr + 64;
+							end if;
+						end if;
+						
+					when CAMB_INIT =>
+						if(Bus2IP_Mst_CmdAck = '1') then
+							cama_sm_state <= CAMB_GO;
+							mst_cntl_wr_req <= '0';
+	
+							
+						end if;
+						
+					when CAMB_GO =>
+						
+						if(Bus2IP_Mst_Cmplt = '1') then
+							cama_sm_state <= CAM_IDLE;
+							p2_en <= '0';
+							if (pb_wr_addr = X"A83A97C0") then
+								pb_wr_addr <= X"A8000000";
+							else
+								pb_wr_addr <= pb_wr_addr + 64;
 							end if;
 						end if;
 					
 					when others => 
-						cama_sm_state <= CAMA_IDLE;
+						cama_sm_state <= CAM_IDLE;
 				end case;
 			end if;
 		
 		end if;
 	end process;
 	
-mst_ip2bus_addr <= pa_wr_addr;
+mst_ip2bus_addr <= pa_wr_addr when p1_en = '1' else pb_wr_addr;
 
 
 end IMP;

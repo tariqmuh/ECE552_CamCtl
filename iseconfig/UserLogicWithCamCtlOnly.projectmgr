@@ -14,15 +14,18 @@
          <ClosedNode>/vmodcam - IMP C:|DSD|IP1_VIDEO_INPUT|UserLogicWithCamCtlOnly|vmodcam.vhd/USER_LOGIC_I - user_logic - IMP/DATA_CAPTURE_FIFO_I - srl_fifo_f - imp</ClosedNode>
          <ClosedNode>/vmodcam - IMP C:|DSD|IP1_VIDEO_INPUT|UserLogicWithCamCtlOnly|vmodcam.vhd/USER_LOGIC_I - user_logic - IMP/Inst_VmodCAM - VmodCAM_Ref - Behavioral/Inst_camctlB - CamCtl - Behavioral</ClosedNode>
          <ClosedNode>/vmodcam - IMP C:|DSD|IP1_VIDEO_INPUT|UserLogicWithCamCtlOnly|vmodcam.vhd/conv_funs_pkg</ClosedNode>
+         <ClosedNode>/vmodcam - IMP C:|fpga|ISE|ECE552_CamCtl|vmodcam.vhd/AXI_LITE_IPIF_I - axi_lite_ipif - imp</ClosedNode>
+         <ClosedNode>/vmodcam - IMP C:|fpga|ISE|ECE552_CamCtl|vmodcam.vhd/AXI_MASTER_BURST_I - axi_master_burst - implementation</ClosedNode>
+         <ClosedNode>/vmodcam - IMP C:|fpga|ISE|ECE552_CamCtl|vmodcam.vhd/USER_LOGIC_I - user_logic - IMP/DATA_CAPTURE_FIFO_I - srl_fifo_f - imp</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>USER_LOGIC_I - user_logic - IMP (C:/DSD/IP1_VIDEO_INPUT/UserLogicWithCamCtlOnly/user_logic.vhd)</SelectedItem>
+         <SelectedItem>USER_LOGIC_I - user_logic - IMP (C:/fpga/ISE/ECE552_CamCtl/user_logic.vhd)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >6</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000003f9000000020000000000000000000000000200000064ffffffff000000810000000300000002000003f90000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>USER_LOGIC_I - user_logic - IMP (C:/DSD/IP1_VIDEO_INPUT/UserLogicWithCamCtlOnly/user_logic.vhd)</CurrentItem>
+      <CurrentItem>USER_LOGIC_I - user_logic - IMP (C:/fpga/ISE/ECE552_CamCtl/user_logic.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -42,12 +45,14 @@
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
-      <SelectedItems/>
+      <SelectedItems>
+         <SelectedItem>C:\fpga\ISE\ECE552_CamCtl\TWICtl.vhd</SelectedItem>
+      </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000252000000040101000100000000000000000000000064ffffffff000000810000000000000004000000e500000001000000000000005c0000000100000000000000660000000100000000000000ab0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000351000000040101000100000000000000000000000064ffffffff0000008100000000000000040000022b00000001000000000000005c0000000100000000000000660000000100000000000000640000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_lite_ipif_v1_01_a\hdl\vhdl\address_decoder.vhd</CurrentItem>
+      <CurrentItem>C:\fpga\ISE\ECE552_CamCtl\TWICtl.vhd</CurrentItem>
    </ItemView>
    <ItemView guiview="Library" >
       <ClosedNodes>
@@ -80,7 +85,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000d5000000010000000100000000000000000000000064ffffffff000000810000000000000001000000d50000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001ae000000010000000100000000000000000000000064ffffffff000000810000000000000001000001ae0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem></CurrentItem>
    </ItemView>

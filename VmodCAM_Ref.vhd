@@ -80,12 +80,10 @@ Generic (
 		CAMB_PWDN_O : out STD_LOGIC; --Power-down active HIGH
 
 		ENB : out STD_LOGIC;
-		RSTB_I : out STD_LOGIC;
 		DIB : out STD_LOGIC_VECTOR (COLORDEPTH - 1 downto 0);
 		CLKB : out STD_LOGIC;
 		
 		ENA : out STD_LOGIC;
-		RSTA_I : out STD_LOGIC;
 		DIA : out STD_LOGIC_VECTOR (COLORDEPTH - 1 downto 0);
 		CLKA : out STD_LOGIC
 	);
@@ -220,8 +218,6 @@ test <= not RESET_I;
 	CLKA <= CamAPClk;
 	CLKB <= CamBPClk;
 	
-	RSTA_I <= test;
-	RSTB_I <= test;
 ----------------------------------------------------------------------------------
 -- Workaround for IN_TERM bug AR# 	40818
 ----------------------------------------------------------------------------------

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2014-02-18T12:55:14</DateModified>
+  <DateModified>2014-02-19T10:38:58</DateModified>
   <ModuleName>vmodcam</ModuleName>
   <SummaryTimeStamp>2014-02-12T11:33:07</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/tariqmuh/Documents/GitHub/ECE552_CamCtl/iseconfig/vmodcam.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/tariqmuh/Documents/GitHub/ECE552_CamCtl\</ImplementationReportsDirectory>
+  <SavedFilePath>C:/fpga/ISE/ECE552_CamCtl/iseconfig/vmodcam.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/fpga/ISE/ECE552_CamCtl\</ImplementationReportsDirectory>
   <DateInitialized>2014-02-08T11:57:03</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
